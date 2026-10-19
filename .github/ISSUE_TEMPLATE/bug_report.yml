@@ -1,0 +1,37 @@
+name: Bug report
+description: Something does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Security problems go through private vulnerability reporting instead (see SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you got instead (metrics output helps).
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: A short program or test, ideally runnable with `go test`.
+      render: go
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: go-obs version
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: input
+    id: go
+    attributes:
+      label: Go version and router
+      placeholder: go1.26, net/http / gorilla/mux v1.8.1 / Fiber v2.52 / chi v5
+    validations:
+      required: true
