@@ -6,6 +6,10 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- The minimum Go version is now 1.26, following `prometheus/client_golang` v1.25. CI runs on Go 1.26 and 1.27.
+
 ## [0.1.0] - 2026-10-19
 
 First public release.
