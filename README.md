@@ -36,7 +36,7 @@ annotations), and runs an optional management server for `/metrics` on a separat
 go get github.com/ly-solutions/go-obs
 ```
 
-Requires Go 1.25 or newer (the minimum of `prometheus/client_golang` v1.24).
+Requires Go 1.26 or newer (the minimum of `prometheus/client_golang` v1.25).
 
 ## Quick start
 

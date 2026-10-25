@@ -21,8 +21,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # The minimum from go.mod and the latest release.
-        go: ["1.25.x", "stable"]
+        # The two supported Go releases; the older one is the minimum from go.mod.
+        go: ["1.26.x", "1.27.x"]
     env:
       GOFLAGS: -mod=readonly
       GOTOOLCHAIN: local
