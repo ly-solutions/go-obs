@@ -3,7 +3,7 @@ module github.com/ly-solutions/go-obs
 go 1.26.0
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.15
+	github.com/gofiber/fiber/v2 v2.52.16
 	github.com/gorilla/mux v1.8.1
 	github.com/prometheus/client_golang v1.25.0
 )
